@@ -1,0 +1,227 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+palette: https://coolors.co/image-picker
+--independence__dark grey: #5A5E70ff;
+--dark-liver__dark blue: #484041ff;
+--pale-cerulean__light blue: #99B8DAff;
+--light-gray: #C7CDCDff;
+--spanish-gray: #A09DA1ff;
+--shadow-blue: #8298BEff;
+--black-coffee: #383132ff;
+--shadow-blue: #8298BEff;
+--dark-liver-horses: #56423Eff;
+--beaver: #988371ff;
+--spanish-gray: #A09DA1ff;
+--black-coffee-2: #2F2523ff;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    //font-family: mistic;
+    font-family: 'Space Grotesk', sans-serif; 
+    background: linear-gradient(#3A343F, #403449, #EFB0C9);
+}
+
+//@font-face {
+//    src: url("images/mistic.ttf");
+//    font-family: mistic;
+//}
+
+#hero {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/Vdqo8E4UktoUADtqccdiHf-1200-80.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    color: 2F2523;
+    text-shadow: 2px 3px 1px #EFB0C9;
+}
+
+h1, h2 {
+    width: 800px;
+    
+}
+
+h1 {
+    margin-bottom: 20;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#cover-image-dog, #cover-image-planet, #cover-image-mythology {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/Vdqo8E4UktoUADtqccdiHf-1200-80.jpg);
+    background-size: cover;
+    margin: auto;
+    //width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#cover-image-planet:hover {
+    background-image: url(https://i.gifer.com/origin/e6/e63bc3505fadb75ab265769592f572d6.gif);
+}
+
+#cover-image-dog:hover {
+    background-image: url(https://64.media.tumblr.com/72c71028c9bcd2d2571c8d90edc1b788/673009c0b617c0be-dd/s500x750/a4e808b3c2af04446a34b8fe652cfe838fbc361e.gif);
+}
+
+#cover-image-mythology:hover {
+    background-image: url(https://media.tenor.com/1llYkuIVjXQAAAAM/hades-assassins-creed-odyssey.gif);             
+}
+
+
+
+
+a {
+    text-decoration: none; 
+    font-weight: bold;
+    font-style: italic;
+    color: #7893C1;
+}
+
+#stories-title {
+    margin: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B47EAB;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#stories {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secret-section {
+    width: 600px;
+    margin: 10px 0px;
+    padding: 0 5px;
+    color: #EFB0C9;
+    text-shadow: 0 1px 1px black;
+    font-size: 25px;
+    line-height: 30px;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    transition-duration: 2s;
+    //border: 1px solid #B47EAB;
+    //border-radius: 10px;
+    //box-shadow: -5px -5px 5px #B47EAB;
+}
+
+
+//img {
+//    width: 500px;
+//    height: 500px;
+//    margin:10;
+//    border-radius: 20px;   
+//}
+
+.secret-story {
+    text-align: justify;
+    padding: 20px;
+}
+
+#planet-story:hover {
+    border: 0px solid #3A343F;
+    border-radius: 10px;
+    box-shadow: -15px -10px 5px #B47EAB;
+    background-color: #EFB0C9;
+    color: #3A343F;
+}
+
+#dog-story:hover {
+    border: 0px solid #B47EAB;
+    border-radius: 10px;
+    box-shadow: -2px -2px 10px #B47EAB;
+    background-color: #EFB0C9;
+    color: #3A343F;
+}
+
+#mythology-story:hover {
+    border: 0px solid #3A343F;
+    border-radius: 10px;
+    box-shadow: 15px -10px 5px #B47EAB;
+    background-color: #EFB0C9;
+    color: #3A343F;
+}
+
+#yourguide {
+    width: 220px;
+    margin: 80px auto 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #403449;
+    font-size: 38px;
+    letter-spacing: 2.5px;
+    text-shadow: 0 0 1px black;
+}
+
+#guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #3A343F;
+    font-size: 25px;
+    text-shadow: 0 1 .5px black;
+    letter-spacing: 3px;
+    transition-duration: 2s;
+    padding: 30px 0 0;
+    margin: 0 230px 150px;
+    
+}
+
+#guide:hover {
+    border: 0px solid #EFB0C9;
+    border-radius: 10px;
+    box-shadow: -2px -2px 20px #B47EAB;
+    background-color: #99B8DA;
+}
+
+#guide-leftside {
+    width: 400px;
+    text-align: right;
+}
+
+#guide-rightside {
+    width:200px;
+    
+}
+
+#guide-img {
+    margin: 0 50px ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 26px #99b8da;
+}
+
+#guide-name {
+    color: #403449;
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 2 2 1px #3E196E;
+    text-align: left;
+}
+
+#guide-intro {
+    margin: 10;
+    width: 400px;
+    font-style: italic;
+}
